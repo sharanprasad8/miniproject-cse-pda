@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>PDA-CSE</title>
+<link rel="icon" href="./images/pdalogo3.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./static/main.css">
+<link rel="stylesheet" href="./static/modelview.css">
+</head>
+
+<body>
+	<!--<div class="loader"></div>-->
+
+	<header>
+		<table>
+			<tr>
+			<td><img src="./images/pdalogo1.png" alt="PDACEK LOGO" id="logo" width="80"></td>
+			<td><center><strong align="center">CSE-PDA</strong></center></td>
+			</tr>
+		</table>	
+	</header>	
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="digitalboard.html">Digital Board</a>
+		<a class="active" href="events_gallery.html">Events & Gallery</a>
+		<a href="courses.html">Courses</a>
+		<a href="chapters.html">Chapters</a>
+		<a href="bluechip.html">Bluechip Association</a>
+		<a href="staff.html">Staff</a>
+		<a href="contact.html">Contact Us</a>
+		<a class="right" href="alum_feedback.html">Alumini FeedBack</a>
+	</nav>
+
+	<div class="dept">
+		<h4 align="center">Department of Computer Science & Engineering</h4>
+	</div>
+
+	<div class="text">
+		<h1 align="center" style="color:crimson;">Events & Gallery</h1><br>
+		<p><center><strong style="color:grey">Click on Image to view Full Image(scroll down to view full image)</center></p><br>
+			<br>
+	<div class="row">
+	<div class="column">
+		<p><center><strong style="color:#2196F3">Events Pictures</strong></center></p><br>
+	<img src="./images/events/cse_1.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_2.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_3.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_4.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_5.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_6.jpg" alt="" onclick="myFunction(this);">
+	</div>
+	<br>
+	<div class="column">
+		<p><center><strong style="color:#2196F3">Smart Tantrotra 2019 Hackathon</strong></center></p><br>
+	<img src="./images/events/cse_hackathon_1.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_hackathon_2.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_hackathon_3.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_hackathon_4.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_hackathon_5.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_hackathon_6.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_hackathon_7.jpg" alt="" onclick="myFunction(this);">
+	</div>
+	<br>
+	<div class="column">
+		<p><center><strong style="color:#2196F3">Blockchain Workshop 2021</strong></center></p><br>
+	<img src="./images/events/cse_blockchain_1.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_blockchain_2.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_blockchain_3.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_blockchain_4.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_blockchain_5.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_blockchain_6.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_blockchain_7.jpg" alt="" onclick="myFunction(this);">
+	</div>
+	<br>
+	<div class="column">
+		<p><center><strong style="color:#2196F3">Data Analytics using HPCC Systems 2021</strong></center></p><br>
+	<img src="./images/events/cse_DA_1.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_DA_2.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_DA_3.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_DA_4.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_DA_5.jpg" alt="" onclick="myFunction(this);">
+	</div>
+	<br>
+	<div class="column">
+		<p><center><strong style="color:#2196F3">Web Programming - SWOT Analysis in E-Commerce 2021</strong></center></p><br>
+	<img src="./images/events/cse_web_1.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_web_2.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_web_3.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_web_4.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_web_5.jpg" alt="" onclick="myFunction(this);">
+	<img src="./images/events/cse_web_6.jpg" alt="" onclick="myFunction(this);">
+	</div>
+	<br>
+	<br>
+	</div>
+	
+	</div>
+	
+	<!-- The expanding image container -->
+	<div class="container">
+	  <!-- Close the image -->
+	  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+	  <!-- Expanded image -->
+	  <img id="expandedImg" style="width:100%">
+
+	  <!-- Image text -->
+	  <div id="imgtext"></div>
+	</div>
+	
+	<script type="text/javascript" src="./static/modelview.js"></script>
+
+	<footer>
+		<p>&copy 2021, Department of Computer Science & Engineering,PDACEK</p>
+	</footer>
+
+</body>
+</html>

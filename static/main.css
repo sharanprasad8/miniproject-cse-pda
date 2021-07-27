@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+background-color: transparent;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdena, sans-serif;
+color: black;
+height: auto;
+margin: 0;
+}
+
+
+header {
+background-color: #0066ff;
+color: gainsboro;
+font-size: 50px;
+padding: 8px;
+}
+
+.sub-title{
+	font-size: 15px;
+	padding: 18px;
+	background-color: powderblue;
+	color: black;																		
+}
+
+.text{
+	margin: 15px;
+	padding: 18px;
+	text-align: justify;
+}	
+
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
+
+.dept {
+background-color: #0066ff;
+color: ghostwhite;
+font-size: 18px;
+padding: 8px;
+position: sticky;
+top: 0;
+}
+
+nav{	
+width: 100%;
+background-color: grey;
+overflow: hidden;
+}
+
+nav a{
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+nav a:hover{
+background-color: #0066ff;
+color: white;
+}
+
+nav a.active {
+background-color: #0066ff;
+color: white;
+}
+
+nav a.right {
+	float: right;
+
+}
+
+@media screen and (max-width: 1000px) {
+  nav a.right, 
+  nav a{
+  	text-align: center;
+  	float: none;
+  }
+	.head-text {
+  display: none;
+	}
+}
+
+.contact{
+	margin: 15px;
+	padding: 18px;
+	text-align: justify;
+	color: crimson;
+}
